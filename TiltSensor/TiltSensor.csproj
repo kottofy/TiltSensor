@@ -97,8 +97,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AzureIoTHub.cs" />
-    <Compile Include="lcoal_settings_template.cs" />
-    <Compile Include="local_settings.cs" />
+    <Compile Include="lcoal_settings.cs" />
     <Compile Include="StartupTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
