@@ -106,6 +106,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="README.md" />
     <None Include="Service References\kristinottofy-iotlab\ConnectedService.json" />
     <None Include="TiltSensor_TemporaryKey.pfx" />
   </ItemGroup>
