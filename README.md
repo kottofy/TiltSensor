@@ -13,3 +13,12 @@ IoT Raspberry Pi project built on Microsoft IoT Core platform in Visual Studio C
     * (Option B) Otherwise, double click on Properties in the Solution Explorer and update the Debug section with your IoT device's IP address
 6. Nuget packages may need to be restored and project may need to be built or rebuilt and few times.
 7. Run the project on the Remote Machine
+
+## Loading This Project as Startup on Device
+1. Follow the instructions [here](https://ms-iot.github.io/content/en-US/win10/samples/PowerShell.htm) to begin a PowerShell connection to the device
+2. Use the commands [here](https://ms-iot.github.io/content/en-US/win10/tools/CommandLineUtils.htm) to set the startup project
+    * For this project, you will need to find the name of the project after it has been deployed to the device by using `IotStartup list headless`
+    * Then, use the command `IotStartup startup headless [Task1]` and paste in the name of the project for `[Task1`]
+
+## Event Hub Instructions to Come
+In progress
