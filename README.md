@@ -4,7 +4,7 @@
 IoT Raspberry Pi project built on Microsoft IoT Core platform in Visual Studio Community 2015 using a tilt sensor and LEDs. One LED lights up based on if the tilt sensor senses tilt (on if yes, off if no). Another LED lights up periodically to signify a check if there is tilting or not. If at those checks the tilt sensor is tilting, then that will be recorded as a tilt. After a certain number of tilts, the third LED will light up to signal a notification is being sent to Azure Event Hub.
 
 ## Azure Setup
-![Architecture](images/tilt-sensor-architecture.png)
+![Architecture](images/tilt-sensor-architecture.PNG)
 
 1. [Create the IoT Hub](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-create-through-portal)
 2. [Create Service Bus Queue](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
@@ -21,7 +21,7 @@ IoT Raspberry Pi project built on Microsoft IoT Core platform in Visual Studio C
     ```
 4. Create a Logic App to trigger on new message in the queue and send to email, SMS with twilio, or to do whatever you'd like!
 
-![logic app](images/tilt-sensor-logicapp.png)
+![logic app](images/tilt-sensor-logicapp.PNG)
 
 ## Steps to Run This Project
 1. Download all of the files in the repository
